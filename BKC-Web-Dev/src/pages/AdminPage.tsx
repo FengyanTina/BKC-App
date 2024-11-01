@@ -1,8 +1,8 @@
-import React from 'react'
 
-type Props = {}
 
-const AdminPage = (props: Props) => {
+
+
+const AdminPage = () => {
   return (
     <div>AdminPage</div>
   )
