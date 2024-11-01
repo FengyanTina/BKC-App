@@ -1,0 +1,25 @@
+.image-responsive {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  object-fit: cover;
+ 
+}
+
+@media (max-width: 700px) {
+    .image-responsive {
+        max-height: 300px;   
+    }
+   
+}
+@media (min-width: 901px) and (max-width: 1300px) {
+  .image-responsive {
+    min-height: 450px;  
+  }
+}
+@media (min-width: 1301px) {
+  .image-responsive {
+    max-height: 500px;
+   
+  }
+}
